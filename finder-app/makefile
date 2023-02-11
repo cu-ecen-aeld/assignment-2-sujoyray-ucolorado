@@ -67,7 +67,7 @@ AFLAGS =
 
 #LD FLAGS Flags
 
-LDFLAGS = -lm
+LDFLAGS = -lm -lc
 
 # Rules to build elf file
 all: $(Output_DIR)/$(PROJECT)
