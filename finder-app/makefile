@@ -42,6 +42,8 @@ export OBJOUTPUTDIR =$(PWD)
 export BUILD_INC_DIR=$(SRC_BASE)/include
 export Output_DIR= $(PWD)
 
+all: writer
+
 writer: writer.o
 	$(CC) -o writer writer.o	
 
